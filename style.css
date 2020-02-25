@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 4vw;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background: url(Фон.jpg);
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid yellow;
+    background-color: #FFF1BF;
+    padding-bottom: 2vw;
+    margin: 3vh 0;
+}
+
+.contacts{
+    border: 3px solid yellow;
+    width: 75vw;
+    background-color: #7DFF9A;
+    margin-bottom: 3vw;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.photo{
+    border: 3px solid yellow;
+    width: 71vw;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vw;
+    margin-top: 2vw;
+    background-color: #C1FBFF;
+}
+
+h1{
+    margin-top: 2vw;
+    color: #068112;
+    text-align: center;
+    width: 75vw;
+}
+
+.myname{
+    color: #068112;
+}
+
+.myphoto{
+    width: 70vw;
+}
+
+.skills_list{
+    color: #2C35FF;
+    font-weight: 800;
+}
+
+.i_can{
+    color: #2C35FF;
+}
+
+.phone{
+color: black;
+}
+
+.mail{
+color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
